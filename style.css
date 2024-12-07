@@ -189,6 +189,12 @@ body::before {
     height: 24px;
     width: auto;
 }
+
+li:hover{
+    color: rgb(26, 200, 81);
+    cursor: pointer;
+}
+
 ::-webkit-scrollbar{
     width: 12px;
     height: 12px;
@@ -198,3 +204,4 @@ body::before {
 ::-webkit-scrollbar-thumb{
     background-color: #fff  ;
 }
+
