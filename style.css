@@ -1,5 +1,6 @@
 :root{
-    --primary-color:  #4a78b4;
+    /* --primary-color:  #4a78b4; */
+    --primary-color:  #c58bc5;
 }
 *{
     margin: 0;
@@ -15,7 +16,7 @@
   }
 
 body{
-    height: 95vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,6 +36,7 @@ p{
 h2{
     margin-top: 10px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .content{
@@ -183,6 +185,10 @@ body::before {
     margin: 10px;
 }
 
+.Status{
+    height: 24px;
+    width: auto;
+}
 ::-webkit-scrollbar{
     width: 12px;
     height: 12px;
