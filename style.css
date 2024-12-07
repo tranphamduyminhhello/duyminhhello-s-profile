@@ -198,7 +198,10 @@ li:hover{
     cursor: pointer;
 }
 
-
+.bio-social {
+    font-size: 20px;
+    word-spacing: 10px;
+}
 
 ::-webkit-scrollbar{
     width: 12px;
