@@ -6,6 +6,7 @@
     <title>duyminhhello's profile</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="icon" href="./favicon.ico" type="image/x-icon"> -->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
@@ -14,7 +15,7 @@
     <video src="./assets/background.mp4" autoplay muted loop class="background-video" style="position: fixed;"></video>
 
     <div class="card">
-        <div class="card__img">
+        <div class="card__img" style="position: relative;">
             <img src="./assets/mac.jpg" alt="">
         </div>
     <h2 style="font-family: 'Roboto';">Duy Minh</h2>
@@ -35,14 +36,20 @@
             <i class="fa-solid fa-envelope" aria-hidden="true"></i> 
         </a>
     </div>
-    <button id="contactButton">Contact Me</button>
+    <button id="contactButton">
+        <a href="https://m.me/duyminhhello" style="text-decoration: none;">
+            Contact Me
+        </a>
+    </button>
     </div>
 
     <div class="content">
             <h1 style="font-family: 'Roboto';">duyminhhello.dev <span style="font-size: 20px; font-weight: normal;">(he/him)</span></h1>
+
             <div class="birthday">
-                <p style="font-size: larger;">Birthday: June 23, 2007</p>
+                <p style="font-size: larger;">Birthday: <span id="birthday-item">June 23, 2007</span></p>
             </div>
+
             <p class="bio-social">
                 <a href="https://www.facebook.com/duyminhhello"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://m.me/duyminhhello"><i class="fa-brands fa-facebook-messenger"></i></a>
@@ -56,13 +63,15 @@
             <img src="https://api.statusbadges.me/badge/playing/1300782458718916628?style=for-the-badge" alt="playing" class="Status">
             <img src="https://api.statusbadges.me/badge/vscode/1300782458718916628?style=for-the-badge" alt="vscode" class="Status">
             <a href="https://api.statusbadges.me/openspotify/1300782458718916628" target="_blank" rel="noopener"><img src="https://api.statusbadges.me/badge/spotify/1300782458718916628?style=for-the-badge" alt="spotify" class="Status"></a>
+            <!-- <a href="https://wakatime.com/@d08f6f50-48e8-481b-9463-8301e108e03e"><img src="https://wakatime.com/badge/user/d08f6f50-48e8-481b-9463-8301e108e03e.svg" alt="Total time coded since Dec 7 2024" style="height: 20px; width: auto;" /></a> -->
         <marquee behavior="" direction="" style="margin-top: 10px;">Buy Me a Coffee: <a href="https://tranphamduyminh-dev.github.io/" style="color: var(--primary-color);">Click here</a> . Thank You!
             <img src="https://media3.giphy.com/media/0mtbY9TCjcrgK4fpB6/giphy.gif" alt="" style="height: 30px; width: auto;">
         </marquee>
 
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tranphamduyminhhello&layout=compact&theme=dark" alt="" style="height: 190px; width: auto;">
+
         <h2 style="margin-top: 10px;">About Me</h2>
-        <p>Xin chào! Tớ là duyminhhello.dev, một lập trình viên nghiệp dư theo sở thích! Tớ 17 tuổi, hiện đang học tập và sinh sống tại Quảng Bình, yêu thích lập trình, phần cứng máy tính & games, bắt đầu biết đến và tìm hiểu lập trình từ năm 15 tuổi thông qua <span style="color: rgb(218, 22, 22);"><strong style="font-size: 17px;">J2Team School</strong> </span>, Ngôn ngữ đầu tiên tớ học là AutoIT, một ngôn ngữ lập trình tự động hóa máy tính. </p>
+        <p>Xin chào! Tớ là duyminhhello.dev , một lập trình viên nghiệp dư theo sở thích! Tớ 17 tuổi, hiện đang học tập và sinh sống tại Quảng Bình, yêu thích lập trình, phần cứng máy tính & games, bắt đầu biết đến và tìm hiểu lập trình từ năm 15 tuổi thông qua <span style="color: rgb(218, 22, 22);"><strong style="font-size: 17px;">J2Team School</strong> </span>, Ngôn ngữ đầu tiên tớ học là AutoIT, một ngôn ngữ lập trình tự động hóa máy tính. </p>
         <h2>Interests & Hobbies</h2>
         <p>
             <ul>
@@ -97,11 +106,18 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/768px-CSS3_logo.svg.png?20210705212817" class="icon">
         <img src="https://static-00.iconduck.com/assets.00/autoit-icon-2048x2048-h46ijbts.png" alt="" class="icon">
 
+        <h2>OS</h2>
+        <p>
+            <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="" class="icon" style="border-radius: 20px; margin: 10px; height: 30px;">
+            <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="" class="icon" style="border-radius: 20px; margin: 10px; height: 30px;">
+        </p>
+
         <h2>Preferred IDEs</h2>
         <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" class="icon">
         <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/Sublime_Text_3_logo.png" alt="" class="icon">
-        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/08/JetBrains_beam_logo.svg/2048px-JetBrains_beam_logo.svg.png" alt="" class="icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/PyCharm_Icon.svg/1024px-PyCharm_Icon.svg.png" alt="" class="icon">
 
+       
         <h2>My Projects</h2>
 
         <div class="project">
@@ -130,11 +146,6 @@
         </div>
         </div>
     </div>
-    <script>
-        document.getElementById('contactButton').addEventListener('click', function() {
-            window.location.href = "https://m.me/duyminhhello";
-        });
-    </script>
     <script src="https://kit.fontawesome.com/33f460dae6.js" crossorigin="anonymous"></script>
     <!-- <script type="text/javascript" src="https://web.nvnstatic.net/js/events/newyear.js"></script> -->
     <!-- <script type="text/javascript" src="https://web.nvnstatic.net/js/events/snow.js"></script> -->
