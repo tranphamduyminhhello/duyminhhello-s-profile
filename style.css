@@ -207,8 +207,8 @@ li:hover{
 }
 
 .noti{
-    height: 66px; 
-    width: 290px;
+    /* height: 66px; 
+    width: 290px; */
     position: fixed;
     background-color: rgba(62, 62, 62, 0.8);
     z-index: 2;
