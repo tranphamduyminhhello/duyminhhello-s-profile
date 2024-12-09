@@ -6,13 +6,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
   .icon:hover{
     transition: transform 0.3s ease;
     transform: scale(1.3);
-    cursor: pointer;
+    cursor: pointer;    
   }
 
 body{
@@ -190,6 +191,8 @@ body::before {
     width: auto;
 }
 
+
+
 li{
     padding: 5px;
 }
@@ -201,6 +204,18 @@ li:hover{
 .bio-social {
     font-size: 20px;
     word-spacing: 10px;
+}
+
+.noti{
+    height: 66px; 
+    width: 290px;
+    position: fixed;
+    background-color: rgba(62, 62, 62, 0.8);
+    z-index: 2;
+    border-radius: 10px;
+    bottom: 25px;
+    right: 10px;
+    padding: 10px;
 }
 
 ::-webkit-scrollbar{
